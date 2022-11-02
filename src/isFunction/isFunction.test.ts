@@ -1,4 +1,4 @@
-const isFunctionTest = require("./isFunction");
+import isFunctionTest from "./isFunction";
 
 describe("Is function test", () => {
     test("Is function -> true", () => {

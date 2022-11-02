@@ -10,4 +10,4 @@ const isEmpty = (value: any): boolean => {
     return !value
 };
 
-module.exports = isEmpty;
+export default isEmpty

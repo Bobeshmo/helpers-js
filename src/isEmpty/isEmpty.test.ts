@@ -1,4 +1,4 @@
-const isEmptyTest = require("./isEmpty");
+import isEmptyTest from "./isEmpty";
 
 describe("Is function test", () => {
     test("Is empty string -> true", () => {
