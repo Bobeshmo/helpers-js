@@ -1,4 +1,4 @@
-import isEmptyTest from "./isEmpty";
+import {isEmpty as isEmptyTest} from "../lib/isEmpty/isEmpty";
 
 describe("Is function test", () => {
     test("Is empty string -> true", () => {

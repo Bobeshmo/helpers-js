@@ -1,4 +1,4 @@
-const isEmpty = (value: any): boolean => {
+export const isEmpty = (value: any): boolean => {
     if (Array.isArray(value)) {
         return !value.length
     }
@@ -9,5 +9,3 @@ const isEmpty = (value: any): boolean => {
 
     return !value
 };
-
-export default isEmpty

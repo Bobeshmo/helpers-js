@@ -1,0 +1,1 @@
+export const isFunction = (arg: any): boolean => typeof arg === "function";

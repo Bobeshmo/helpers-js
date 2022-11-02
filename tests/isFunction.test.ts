@@ -1,4 +1,4 @@
-import isFunctionTest from "./isFunction";
+import {isFunction as isFunctionTest} from "../lib/isFunction/isFunction";
 
 describe("Is function test", () => {
     test("Is function -> true", () => {

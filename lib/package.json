@@ -1,0 +1,14 @@
+{
+  "name": "utilities-lib",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "tchaikovsky.md",
+  "license": "ISC",
+  "keywords": [
+    "utilities",
+    "util"
+  ],
+  "devDependencies": {}
+}
