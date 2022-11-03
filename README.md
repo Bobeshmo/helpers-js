@@ -34,3 +34,12 @@ const deepCloned = deepClone(arr);
 arr === cloned; // true
 arr === deepCloned; // false
 ```
+
+### isFunction
+
+Checks if value is an function.
+```js
+isFunction({}); // false
+isFunction(() => {}); // true
+isFunction(function () {}); // true
+```
