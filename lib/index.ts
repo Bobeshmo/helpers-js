@@ -1,2 +1,9 @@
-export {isEmpty} from './isEmpty/isEmpty';
-export {isFunction} from './isFunction/isFunction';
+import isEmpty from "./isEmpty";
+import isFunction from "./isFunction";
+
+const utils = {
+    isEmpty,
+    isFunction,
+}
+
+export default utils;
