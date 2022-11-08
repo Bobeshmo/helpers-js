@@ -1,12 +1,12 @@
-import getObjectClass from "./getObjectClass";
 import isObject from "./isObject";
+import isArray from "./isArray";
 
 const isEmpty = (value: any): boolean => {
     if (isObject(value)) {
         return !Object.keys(value).length;
     }
 
-    if (getObjectClass(value) === "[object Array]") {
+    if (isArray(value)) {
         return !value.length;
     }
 
