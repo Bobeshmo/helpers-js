@@ -6,6 +6,7 @@ import isValidDate from "./isValidDate";
 import getDaysInMonth from "./getDaysInMonth";
 import isCorrectDate from "./isCorrectDate";
 import getSearchParams from "./getSearchParams";
+import isObject from "./isObject";
 
 const utils = {
     isEmpty,
@@ -15,7 +16,8 @@ const utils = {
     isValidDate,
     getDaysInMonth,
     isCorrectDate,
-    getSearchParams
+    getSearchParams,
+    isObject
 }
 
 export default utils;

@@ -1,7 +1,8 @@
 import getObjectClass from "./getObjectClass";
+import isObject from "./isObject";
 
 const isEmpty = (value: any): boolean => {
-    if (getObjectClass(value) === "[object Object]") {
+    if (isObject(value)) {
         return !Object.keys(value).length;
     }
 
