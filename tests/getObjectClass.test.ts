@@ -17,7 +17,7 @@ describe("Get object class test", () => {
         expect(getObjectClass(1)).toBe("[object Number]")
     });
 
-    test("Number class", () => {
+    test("Boolean class", () => {
         expect(getObjectClass(true)).toBe("[object Boolean]")
     });
 });
