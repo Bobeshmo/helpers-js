@@ -1,45 +1,49 @@
 # JavaScript utility library
 
-> Only the most necessary and nothing superfluous.
+> Only the most necessary and nothing superfluous
 
 ## Installation
 
 Using npm:
 ```shell
-$ npm i utilities-lib
+$ npm i utillite
 ```
 
 ## Usage
 
-Below are examples of using the library
+```js
+import utils from "utillite"
+```
 
 ### isEmpty
 
-Checks if value is an empty object, array, or string.
+This method returns true when the value is null
 ```js
-isEmpty(""); // true
-isEmpty({}); // true
-isEmpty([]); // true
-isEmpty([1, 2]); // false
+utils.isEmpty(""); // true
+utils.isEmpty({}); // true
+utils.isEmpty([]); // true
+utils.isEmpty([1, 2]); // false
 ```
 
 ### deepClone
 
-Creates a shallow clone of value.
+This method returns the deep cloned value
 ```js
 const arr = [1, 2, 3];
 const cloned = arr;
-const deepCloned = deepClone(arr);
+const deepCloned = utils.deepClone(arr);
 
 arr === cloned; // true
 arr === deepCloned; // false
 ```
 
-### isFunction
+### deepEqual
 
-Checks if value is an function.
+This method returns a Boolean value(Returns true if the two values are equal, else false)
 ```js
-isFunction({}); // false
-isFunction(() => {}); // true
-isFunction(function () {}); // true
+utils.deepEqual({a: {b: "foo"}}, {a: {b: "foo"}}) // true
+utils.deepEqual({a: {b: "foo"}}, {a: {b: "foo"}}) // false
+
+utils.deepEqual([1, 2], [1, 2]) // true
+utils.deepEqual([1, 2], [1, "2"]) // false
 ```
