@@ -8,6 +8,7 @@ import isCorrectDate from "./isCorrectDate";
 import getSearchParams from "./getSearchParams";
 import isObject from "./isObject";
 import isArray from "./isArray";
+import debounce from "./debounce";
 
 const utils = {
     isEmpty,
@@ -19,7 +20,8 @@ const utils = {
     isCorrectDate,
     getSearchParams,
     isObject,
-    isArray
+    isArray,
+    debounce
 }
 
 export default utils;
