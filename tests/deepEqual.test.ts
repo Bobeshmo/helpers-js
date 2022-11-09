@@ -20,4 +20,16 @@ describe("deep equal test", () => {
     test("non-equal objects", () => {
         expect(deepEqual({a: {b: "foo"}}, {a: {b: "bar"}})).toBe(false)
     });
+
+    test("equal null", () => {
+        expect(deepEqual(null, null)).toBe(true)
+    });
+
+    test("comparison of null and undefined", () => {
+        expect(deepEqual(undefined, null)).toBe(false)
+    });
+
+    test("comparison of zero and false", () => {
+        expect(deepEqual(0, false)).toBe(false)
+    });
 });
