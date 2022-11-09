@@ -9,6 +9,7 @@ import getSearchParams from "./getSearchParams";
 import isObject from "./isObject";
 import isArray from "./isArray";
 import debounce from "./debounce";
+import deepEqual from "./deepEqual";
 
 const utils = {
     isEmpty,
@@ -21,7 +22,8 @@ const utils = {
     getSearchParams,
     isObject,
     isArray,
-    debounce
+    debounce,
+    deepEqual
 }
 
 export default utils;
