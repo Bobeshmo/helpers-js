@@ -1,11 +1,11 @@
 import isCorrectDate from "../lib/isCorrectDate";
 
-describe("Is correct date test", () => {
-    test("Is correct date", () => {
+describe("is the correct date test", () => {
+    test("is the correct date", () => {
         expect(isCorrectDate(28, 1, 2022)).toBe(true)
     });
 
-    test("Is incorrect date", () => {
+    test("is the incorrect date", () => {
         expect(isCorrectDate(29, 1, 2022)).toBe(false)
     });
 });

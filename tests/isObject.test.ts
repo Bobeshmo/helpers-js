@@ -1,11 +1,11 @@
 import isObject from "../lib/isObject";
 
-describe("Is an object test", () => {
-    test("Is an object", () => {
+describe("is an object test", () => {
+    test("is an object", () => {
         expect(isObject({})).toBe(true)
     });
 
-    test("Isn't an object", () => {
+    test("isn't an object", () => {
         expect(isObject([])).toBe(false)
     });
 });

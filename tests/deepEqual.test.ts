@@ -1,6 +1,6 @@
 import deepEqual from "../lib/deepEqual";
 
-describe("deep equals test", () => {
+describe("deep equal test", () => {
     test("equal numbers", () => {
         expect(deepEqual(5, 5)).toBe(true)
     });

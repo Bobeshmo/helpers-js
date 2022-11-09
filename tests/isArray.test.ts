@@ -1,11 +1,11 @@
 import isArray from "../lib/isArray";
 
-describe("Is an array test", () => {
-    test("Is an array", () => {
+describe("is an array test", () => {
+    test("is an array", () => {
         expect(isArray([])).toBe(true)
     });
 
-    test("Isn't an array", () => {
+    test("isn't an array", () => {
         expect(isArray({})).toBe(false)
     });
 });

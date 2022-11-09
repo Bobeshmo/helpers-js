@@ -1,15 +1,15 @@
 import isFunction from "../lib/isFunction";
 
-describe("Is function test", () => {
-    test("Is function -> true", () => {
+describe("is a function test", () => {
+    test("is a callback", () => {
         expect(isFunction(() => {})).toBe(true)
     });
 
-    test("Is function -> true", () => {
+    test("is a function", () => {
         expect(isFunction(function () {})).toBe(true)
     });
 
-    test("Is function -> false", () => {
+    test("isn't a function", () => {
         expect(isFunction({})).toBe(false)
     });
 });

@@ -1,27 +1,27 @@
 import isEmpty from "../lib/isEmpty";
 
-describe("Is function test", () => {
-    test("Is empty string -> true", () => {
+describe("is an empty test", () => {
+    test("is an empty string", () => {
         expect(isEmpty("")).toBe(true)
     });
 
-    test("Is empty string -> false", () => {
+    test("isn't an empty string", () => {
         expect(isEmpty("test")).toBe(false)
     });
 
-    test("Is empty object -> true", () => {
+    test("is an empty object", () => {
         expect(isEmpty({})).toBe(true)
     })
 
-    test("Is empty object -> false", () => {
+    test("isn't an empty object", () => {
         expect(isEmpty({name: "Test"})).toBe(false)
     });
 
-    test("Is empty array -> true", () => {
+    test("is an empty array", () => {
         expect(isEmpty([])).toBe(true)
     });
 
-    test("Is empty array -> false ", () => {
+    test("isn't an empty array", () => {
         expect(isEmpty([1, 2, 3])).toBe(false)
     });
 });
