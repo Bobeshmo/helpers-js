@@ -11,6 +11,7 @@ import isArray from "./isArray";
 import debounce from "./debounce";
 import deepEqual from "./deepEqual";
 import capitalize from "./capitalize";
+import min from "./min";
 
 const utils = {
     isEmpty,
@@ -26,6 +27,7 @@ const utils = {
     debounce,
     deepEqual,
     capitalize,
+    min,
 }
 
 export default utils;
