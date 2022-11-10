@@ -12,6 +12,7 @@ import debounce from "./debounce";
 import deepEqual from "./deepEqual";
 import capitalize from "./capitalize";
 import min from "./min";
+import max from "./max";
 
 const utils = {
     isEmpty,
@@ -28,6 +29,7 @@ const utils = {
     deepEqual,
     capitalize,
     min,
+    max
 }
 
 export default utils;
