@@ -10,6 +10,7 @@ import isObject from "./isObject";
 import isArray from "./isArray";
 import debounce from "./debounce";
 import deepEqual from "./deepEqual";
+import capitalize from "./capitalize";
 
 const utils = {
     isEmpty,
@@ -23,7 +24,8 @@ const utils = {
     isObject,
     isArray,
     debounce,
-    deepEqual
+    deepEqual,
+    capitalize,
 }
 
 export default utils;
