@@ -14,6 +14,7 @@ import capitalize from "./capitalize";
 import min from "./min";
 import max from "./max";
 import uniq from "./uniq";
+import get from "./get";
 
 const utils = {
     isEmpty,
@@ -32,6 +33,7 @@ const utils = {
     min,
     max,
     uniq,
+    get
 }
 
 export default utils;
