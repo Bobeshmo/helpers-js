@@ -13,6 +13,7 @@ import deepEqual from "./deepEqual";
 import capitalize from "./capitalize";
 import min from "./min";
 import max from "./max";
+import uniq from "./uniq";
 
 const utils = {
     isEmpty,
@@ -29,7 +30,8 @@ const utils = {
     deepEqual,
     capitalize,
     min,
-    max
+    max,
+    uniq,
 }
 
 export default utils;
